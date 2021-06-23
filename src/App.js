@@ -15,7 +15,7 @@ const App = () => {
 
     const deleteUserHandler = (userId) => {
         setUsersList(prevUsers => {
-            return prevUsers.filter(item => item.key !== userId)
+            return prevUsers.filter(item => item.id !== userId)
         });
     };
 
